@@ -230,3 +230,7 @@ def get_decision(decision_id: str):
             for a in assumptions
         ],
     }
+
+# AWS Lambda entrypoint
+from mangum import Mangum
+handler = Mangum(app)
