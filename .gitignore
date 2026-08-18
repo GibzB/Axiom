@@ -44,3 +44,28 @@ lambda.zip
 apps/web/.env
 apps/web/.env.local
 apps/web/.env.production
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+apps/web/.env
+apps/web/.env.*
+!apps/web/.env.example
+
+# Node
+node_modules/
+apps/web/node_modules/
+apps/web/dist/
+
+# AWS deployment artifacts
+build/
+lambda.zip
+
+# macOS
+.DS_Store
