@@ -32,3 +32,15 @@ dist/
 *.pem
 *.key
 credentials*
+
+# AWS Lambda build artifacts
+build/
+lambda.zip
+
+# Local environment files
+.env
+.env.local
+.env.production
+apps/web/.env
+apps/web/.env.local
+apps/web/.env.production
