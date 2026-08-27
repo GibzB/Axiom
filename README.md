@@ -363,6 +363,17 @@ npm run dev
 
 ## Testing
 
+### API Unit Tests
+
+The unit suite runs offline: Bedrock and CockroachDB are replaced with test doubles, so no AWS credentials or database are required.
+
+```bash
+pip install -r apps/api/requirements-dev.txt
+pytest
+```
+
+`pytest` prints a coverage report for `apps/api/src`.
+
 ### Vector Memory
 
 ```bash
