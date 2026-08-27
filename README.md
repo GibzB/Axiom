@@ -374,6 +374,16 @@ pytest
 
 `pytest` prints a coverage report for `apps/api/src`.
 
+### Frontend Unit Tests
+
+Vitest with jsdom; the API is stubbed, so no backend is required.
+
+```bash
+cd apps/web
+npm install
+npm test
+```
+
 ### Vector Memory
 
 ```bash
